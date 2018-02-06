@@ -5,7 +5,7 @@ $( document ).ready(function() {
       $('.container-one').hide(0);
   });
 
-  var $slider = document.getElementById('slider');
+  var $slider = document.getElementById('nav');
   var $toggle = document.getElementById('buttonStart');
 
   $toggle.addEventListener('click', function() {
