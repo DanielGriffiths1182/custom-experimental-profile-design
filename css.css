@@ -55,3 +55,14 @@
 .btn.btn-default:focus {
   outline:0 !important;
 }
+
+.btn.btn-default:hover {
+border-radius: 3px;
+position: relative;
+background-color: #ECFBFF;
+border: 2px solid #A6E0EE;
+color: #2D7586;
+-webkit-transition: 1.5s; /* For Safari 3.1 to 6.0 */
+transition: 1.5;
+transition-delay: .3s;
+}
