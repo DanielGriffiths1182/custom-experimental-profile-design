@@ -7,6 +7,7 @@
   transition: 2s;
   -webkit-filter: blur(1.5px) grayscale(1);
   margin:auto;
+  transition-delay: .2s;
 }
 .circle:hover {
   background-image: url("https://i.kinja-img.com/gawker-media/image/upload/s--C-HE98Fg--/c_scale,fl_progressive,q_80,w_800/eibgv7kctah62iddzywm.jpg");
@@ -34,7 +35,7 @@
   font-size: 65px;
   -webkit-transition: 1.5s; /* For Safari 3.1 to 6.0 */
   transition: 1.5;
-  transition-delay: .4s;
+  transition-delay: .8s;
 }
 
 .btn.btn-default {
@@ -48,7 +49,6 @@
   text-transform: uppercase;
   font-family: 'Actor';
   -webkit-filter: blur(1px);
-  border-radius: 8%;
   cursor: pointer;
 }
 
