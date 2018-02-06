@@ -2,7 +2,7 @@ $( document ).ready(function() {
 
   $(function(){
     $("#header").load("views/header.html");
-    $("#footer").load("footer.html");
+    $("#footer").load("views/footer.html");
   });
 
   $('.btn.btn-default').click(function() {
