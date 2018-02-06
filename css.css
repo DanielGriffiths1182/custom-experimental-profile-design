@@ -69,8 +69,6 @@ border: 2px solid #A6E0EE;
 color: #2D7586;
 }
 
-​.skills {
-  display: none !important;
-  position: absolute;
-  visibility:hidden;
-}​
+div#container-two div.skills{
+  display:none;
+}
