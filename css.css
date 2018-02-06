@@ -1,4 +1,7 @@
 .circle {
+  position: absolute;
+  top: 25%;
+  right: 35%;
 	border-radius: 50%;
 	width: 300px;
 	height: 300px;
@@ -65,3 +68,9 @@ background-color: #ECFBFF;
 border: 2px solid #A6E0EE;
 color: #2D7586;
 }
+
+​.skills {
+  display: none !important;
+  position: absolute;
+  visibility:hidden;
+}​
