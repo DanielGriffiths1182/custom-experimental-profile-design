@@ -1,5 +1,10 @@
 $( document ).ready(function() {
 
+  $(function(){
+    $("#header").load("views/header.html");
+    $("#footer").load("footer.html");
+  });
+
   $('.btn.btn-default').click(function() {
       $('.skills').show(500);
       $('.container-one').hide(0);
