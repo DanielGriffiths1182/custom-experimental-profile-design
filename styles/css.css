@@ -121,7 +121,7 @@ div#container-two div.skills{
 
 footer > ul{
     width:100%;
-    position:fixed;
+    position:absolute;
     margin:auto;
     bottom:0;
     background: black;
@@ -186,7 +186,6 @@ footer > ul > li:hover p{
 footer p:before{
     content: '';
     display: inline-block;
-    background: url('../img/sprite.png') no-repeat;
     width: 16px;
     height: 18px;
     margin: 0 12px 0 15px;
